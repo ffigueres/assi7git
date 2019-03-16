@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <row>
+    <Attribute>Title</Attribute>
+    <Value>R for Data Science</Value>
+  </row>
+  <row>
+    <Attribute>ISBN-13</Attribute>
+    <Value>9781491910399</Value>
+  </row>
+  <row>
+    <Attribute>ISBN-10</Attribute>
+    <Value>1491910399</Value>
+  </row>
+  <row>
+    <Attribute>Authors</Attribute>
+    <Value>Hadley Wickham; Garrett Grolemund</Value>
+  </row>
+  <row>
+    <Attribute>Edition</Attribute>
+    <Value>1</Value>
+  </row>
+  <row>
+    <Attribute>Binding</Attribute>
+    <Value>Paperback</Value>
+  </row>
+  <row>
+    <Attribute>Publisher</Attribute>
+    <Value>O&apos;Reilly Media</Value>
+  </row>
+  <row>
+    <Attribute>Published</Attribute>
+    <Value>January 2017</Value>
+  </row>
+  <row>
+    <Attribute>List Price</Attribute>
+    <Value>$39.99</Value>
+  </row>
+</root>

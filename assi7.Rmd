@@ -1,0 +1,45 @@
+---
+title: "Assignment W7 - Working with XML and JSON in R"
+author: "Fernando Figueres"
+subtitle: "DATA-607, Spring 2019"
+output:
+  html_document:
+    df_print: paged
+---
+
+When the files were first imported, the shape of the data frames were not consistent. In one case, it appeared as a list without attribute names. By tweaking the source file structures and doing some transformations with dplyr I was able to standardize their structure as shown below.
+
+```{r Libraries, include=FALSE}
+suppressMessages(library(tidyverse))
+suppressMessages(library(xml2))
+suppressMessages(library(XML))
+suppressMessages(library(jsonlite))
+suppressMessages(library(rvest))
+```
+
+
+##XML
+```{r XML}
+xmldf <- xmlToDataFrame("Books.xml", stringsAsFactors = FALSE)  
+(xmldf)
+```
+
+##HTML
+```{r HTML}
+htmldf <- 
+  read_html("Books.html") %>%         
+  html_nodes("table") %>%
+    .[[1]] %>%        
+  html_table(trim = TRUE, header = TRUE) %>% 
+  as.data.frame()
+
+(htmldf)
+```
+
+##JSON
+```{r JSON}
+jsondf <- fromJSON("Books.json") %>% 
+  remove_rownames()
+
+(jsondf)
+```

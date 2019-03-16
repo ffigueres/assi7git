@@ -1,0 +1,38 @@
+[
+ {
+   "Attribute": "Title",
+   "Value": "Automated Data Collection with R"
+ },
+ {
+   "Attribute": "ISBN-13",
+   "Value": "9781118834817"
+ },
+ {
+   "Attribute": "ISBN-10",
+   "Value": "111883481X"
+ },
+ {
+   "Attribute": "Authors",
+   "Value": "Simon Munzert; Christian Rubba; Peter Meiner; Dominic Nyhuis"
+ },
+ {
+   "Attribute": "Edition",
+   "Value": "1"
+ },
+ {
+   "Attribute": "Binding",
+   "Value": "Hardcover"
+ },
+ {
+   "Attribute": "Publisher",
+   "Value": "Wiley"
+ },
+ {
+   "Attribute": "Published",
+   "Value": "January 2015"
+ },
+ {
+   "Attribute": "List Price",
+   "Value": "$80.00"
+ }
+]
